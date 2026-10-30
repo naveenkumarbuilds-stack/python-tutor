@@ -66,12 +66,12 @@ Last verification: 79 backend tests passed; Phase 5/6 browser checks passed; pro
 - src/components: workspace insights, streaming chat, parser results and learning exercises.
 - src/hooks: cancellable API requests and activity state.
 - src/lib: public API origin and bounded local history.
-- src/data: supplied Python examples and legacy prepared data.
+- src/data: the five Python examples used by the editor.
 - backend: AST analysis, diagram generation, provider adapters, response contracts, budgets and cache.
 - backend/tests: static-analysis, AI and learning endpoint tests.
-- checks: captured layouts and verification results.
+- checks: locally generated layouts and verification results (ignored by Git).
 
-See DEPLOYMENT.md for hosting, SECURITY.md for the security review, and PHASE-5.md / PHASE-6.md for delivery details. No deployment has been performed.
+See DEPLOYMENT.md for hosting and SECURITY.md for the security review. No deployment has been performed.
 
 ## Workspace fixes
 
