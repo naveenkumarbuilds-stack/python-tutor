@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+backend/.env
+__pycache__/
+.pytest_cache/
+backend/.venv/
+.env.*
+!.env.example
+backend/.env.*
+!backend/.env.example
+checks/
+*.log
+.DS_Store
+Thumbs.db
